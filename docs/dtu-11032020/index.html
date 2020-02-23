@@ -10,12 +10,13 @@
 
         body {
             font-family: 'Merriweather';
+            font-size: xx-large;
         }
 
         h1,
         h2,
         h3 {
-            font-weight: normal;
+            font-weight: bolder;
             font-weight: 400;
             margin-bottom: 0;
             font-family: 'Yanone Kaffeesatz';
@@ -24,11 +25,13 @@
         p {
             padding: 0.5em;
             line-height: 1.5em;
+            font-size: xx-large;
         }
 
         li {
             padding: 0.5em;
             line-height: 1em;
+            font-size: xx-large;
         }
 
         .remark-code,
@@ -125,7 +128,7 @@ class: middle
 - for the first time I'm working at a corporation
 --
 
-- the view that will be explained here are only my own
+- the view that will be explained here is only my own
 
 
 ---
@@ -182,22 +185,20 @@ class: middle
 
 # Gravitational Slingshot (4/4)
 <img class="center-img" src="galileo.gif" />
-
 Animation of Galileo's trajectory from Oct. 19th 1989 to Sept. 30th 2003..red.bold[*] 
 
 .footnote[.red.bold[*][https://en.wikipedia.org/wiki/Gravity_assist](https://en.wikipedia.org/wiki/Gravity_assist)]
 
+---
+class: middle
+
+# Gravitational Slingshot doesn't look so easy...
+
 
 ---
 class: middle
 
-## Gravitational Slingshot doesn't look so easy...
-
-
----
-class: middle
-
-## ...but has rules
+# ...but has rules
 
 
 ---
@@ -218,7 +219,7 @@ class: middle
 ---
 class: middle
 
-# Agile is kinda of a buzzword nowadays
+# Agile is kinda buzzword nowadays
 --
 
 - many consulting companies offer "agile" as solution to everything
@@ -227,15 +228,47 @@ class: middle
 - you will find many definitions of "agile processes"
 --
 
-- I will only tell you [this](https://agilemanifesto.org/).red.bold[*] is where everything has started
+- [This](https://agilemanifesto.org/).red.bold[*] is where everything has started
 
 .footnote[.red.bold[*][https://agilemanifesto.org](https://agilemanifesto.org)]
 
 
 ---
+class: middle
+
+#The goal for today
+
+--
+- give you an idea on how we use agile in our team
+
+--
+- why is good for engineers to apply agile principles
+
+--
+- eXtreme programming practices
+
+--
+- answer to your questions
+
+---
+class: middle
+
+# The problem
+
+---
+class: middle
+
+# The team
+
+---
+class: middle
+
+# Fail fast approach
+
+---
 class: center, middle
 
-## So long and thanks for all the fish!
+# So long and thanks for all the fish!
 
 </textarea>
 
@@ -421,6 +454,7 @@ class: center, middle
     <script>
         const slideshow = remark.create({
             ratio: "16:9" ,
+            countIncrementalSlides: false,
             highlightStyle: "github", // highlight.js theme
         }, () => {
             // KaTeX sessting
